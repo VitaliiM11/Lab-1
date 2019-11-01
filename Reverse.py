@@ -1,5 +1,5 @@
-s = str(input("Enter text: "))
+s = str(input("Enter sentence: "))
 sentence = s[::-1]
 words = sentence.split()
 sentence_rev = " ".join(reversed(words))
-print(sentence_rev)
+print("Your reversed sentence: ", sentence_rev)
